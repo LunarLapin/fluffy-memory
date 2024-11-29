@@ -1,5 +1,31 @@
-.highlight {
-    text-transform: uppercase;
-    color: purple;
-    background-color: yellow;
+p {
+    background-color: bisque;
+    display: flow-root ;
 }
+
+div {
+    height: 6rem;
+    width: 6rem;
+    background-color: aqua;
+    display: flow-root;
+}
+
+.left{
+    float: left;
+    margin-right: 12px;
+}
+
+.right {
+    float: right;
+    margin-left: 12px;
+}
+
+section {
+    columns: 4 250px;
+    margin-top: 0;
+}
+
+.column-header {
+    column-span: all;
+}
+
