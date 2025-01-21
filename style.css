@@ -1,0 +1,42 @@
+#biggerbox {
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+
+#box1 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border: 3px solid black;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: red;
+    
+}
+#box2 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border: 3px solid black;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: skyblue;
+}
+#box3 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border: 3px solid black;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: green;
+}
