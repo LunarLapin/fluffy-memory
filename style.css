@@ -2,19 +2,49 @@
     margin: 0;
     padding: 0;
 }
-
-.parent {
-    border: solid 2px black;
-    height: 600px;
-    width: 400px;
-    position: relative;
-    padding: 12px;
-}
-
-.child {
-    border: solid 2px black;
-    width: 150px;
-    background-color: aqua;
+nav {
+    padding-left: 2em;
     position: sticky;
     top: 0;
+    z-index: 1;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 0 2rem;
+    margin: 0 1em;
+    background-color: antiquewhite;
+    margin-bottom: 2px;
+
+}
+.boxes {
+    background-color: aquamarine;
+    height: relative;
+    width: relative;
+    border: 2px solid black;
+}
+#space {
+    padding: 200%;
+}
+.bookmarkStyle {
+    border: 2px solid black;
+    position: sticky;
+    top: 1.5rem;
+    width: 8rem;
+    background-color: bisque;
+    border-radius: 0 12px;
+    text-align: center;
+}
+#bmTwo {
+    margin-left: 9rem;
+}
+#bmThree {
+    margin-left: 18rem;
+}
+#bmFour {
+    margin-left: 27rem;
 }
