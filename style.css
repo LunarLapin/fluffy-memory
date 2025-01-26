@@ -1,50 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
+.column {
+    width: 250px;
+    white-space: wrap;
 }
-nav {
-    padding-left: 2em;
+
+#padme {
+    padding: 200rem;
+}
+.bookmark {
     position: sticky;
     top: 0;
-    z-index: 1;
-}
-ul {
+    border: 2px solid black;
+    background-color: peachpuff;
+    width: 50px;
+    height: 24px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 100px;
 }
-li {
-    list-style-type: none;
-    border: 2px solid black;
-    padding: 0 2rem;
-    margin: 0 1em;
-    background-color: antiquewhite;
-    margin-bottom: 2px;
-
+#two {
+    left: 3rem;
 }
-.boxes {
-    background-color: aquamarine;
-    height: relative;
-    width: relative;
-    border: 2px solid black;
+#three {
+    left: 5.5rem;
 }
-#space {
-    padding: 200%;
-}
-.bookmarkStyle {
-    border: 2px solid black;
-    position: sticky;
-    top: 1.5rem;
-    width: 8rem;
-    background-color: bisque;
-    border-radius: 0 12px;
-    text-align: center;
-}
-#bmTwo {
-    margin-left: 9rem;
-}
-#bmThree {
-    margin-left: 18rem;
-}
-#bmFour {
-    margin-left: 27rem;
+#four {
+    left: 8rem;
 }
